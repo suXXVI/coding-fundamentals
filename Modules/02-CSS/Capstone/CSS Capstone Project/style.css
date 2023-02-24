@@ -1,0 +1,48 @@
+body {
+    background-color: red;
+  }
+  
+  @media (min-width: 200px) {
+   .tablet {
+    display: none
+   }
+   .desktop {
+    display: none;
+   }
+  }
+  
+  @media (min-width: 640px) {
+    body {
+        background-color: rgb(84, 168, 84);
+    }
+    .tablet {
+        display: block;
+        
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /*
+      - show desktop div
+      - hide mobile and tablet divs
+      - change background color
+    */
+    body {
+        background-color: rgb(55, 121, 184);
+    }
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+  }
