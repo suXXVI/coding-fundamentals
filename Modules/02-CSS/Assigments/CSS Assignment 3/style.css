@@ -1,0 +1,37 @@
+.menu {    
+  width: 120px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;  
+}
+
+.submenu {
+  display: none;
+  position: relative;
+  margin: 5px 0;
+}
+
+.submenu-item {
+  position: absolute; 
+  width: 100px;
+  background-color: lightgrey;
+  padding: 10px;  
+}
+.submenu-item2 {
+  position: absolute;
+  width: 100px;
+  background-color: lightgrey;
+  padding: 10px;
+  top: 38px;
+}
+
+.submenu-item:hover {
+  background-color: gray;
+}
+.submenu-item2:hover {
+  background-color: gray;
+}
+
+.menu:hover .submenu {    
+  display: block;
+}
