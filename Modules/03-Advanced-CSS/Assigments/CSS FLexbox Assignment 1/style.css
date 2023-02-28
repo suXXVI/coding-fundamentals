@@ -1,0 +1,122 @@
+main {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.tile{
+    max-width: 300px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thumbnail-container {
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    object-fit: cover;
+    position: absolute;
+    height: 180px;
+    width: 300px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    transform: scale(1.2);
+}
+
+/* tags */
+.tags {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 30, 75);
+    border-radius: 100px;
+    color: white;
+    padding: 7px 20px;
+}
+
+.tags:hover {
+    background-color: rgb(206, 14, 56);
+}
+
+/* header */
+header {
+    flex: 1;
+    padding: 5px;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(49, 49, 49); 
+    cursor: pointer;
+}
+
+/* details */
+.details{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px; 
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+}
+
+.author-name {
+    margin-left: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(167, 167, 167);
+    font-size: small;
+}
+
+.avatar {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 9999px;
+}
+
+.date {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(167, 167, 167);
+    font-size: small;
+    padding-right: 3px;
+}
+
+@media (min-width: 300px) {
+    main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media (min-width: 820px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
