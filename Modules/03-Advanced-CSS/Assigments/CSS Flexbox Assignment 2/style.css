@@ -1,0 +1,41 @@
+.container {
+    background-color: rgb(245, 249, 252);
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    padding: 40px 60px 40px 60px;
+    width: 800px;
+}
+
+.checked {
+    color: gold;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 9999px;
+    margin-right: 15px;
+}
+
+.user-rating {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(73, 73, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.review-container {
+    margin-top: 20px;   
+}
+
+.review {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(73, 73, 73);
+}
