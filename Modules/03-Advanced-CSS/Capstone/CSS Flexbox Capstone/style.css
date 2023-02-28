@@ -1,0 +1,237 @@
+main {
+    margin-top: 0;
+}
+
+/* nav bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 20px;
+    /* position: sticky;
+    top: 0;
+    z-index: 50; */
+    background-color: white;
+}
+
+.container-1 > .page-links {
+    display: none;
+}
+
+.logo {
+    color: var(--secondary-gray);
+    height: 50px;
+    width: 50px;
+    transition: transform 0.5s;
+}
+
+.logo:hover {
+    color: var(--primary-blue);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.page-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pagelink {
+    text-decoration: none;
+    color: var(--secondary-gray);
+    background-color: ;
+}
+
+.pagelink:hover {
+    color: var(--primary-blue);
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary-gray);
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.login-btn:hover {
+    background-color: var(--primary-blue)
+}
+
+/* about section */
+.about-container {
+    padding: 0 30px;
+    height: 100vh;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-header {
+    color: var(--secondary-gray);
+    font-size:xxx-large;
+}
+
+.about-description {
+    color: var(--secondary-gray);
+}
+
+/* contact section */
+.contact-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 12px 19px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 10px 12px 19px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 10px 12px 19px 0px rgba(0,0,0,0.26);
+}
+
+.company-contact-card {
+    background-color: var(--secondary-gray);
+    height: 500px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.company-contact-card p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-icon, .email-icon {
+    height:20px;
+    width: 20px;
+}
+
+.social-links {
+    width: 90px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    fill: white
+}
+
+.facebook:hover {
+    fill: rgb(64, 97, 245);
+}
+.instagram:hover {
+    fill: rgb(255, 63, 95);
+}
+.twitter:hover {
+    fill: aqua;
+}
+
+.message-card {
+    padding: 20px;
+    /* width: 100% */
+    flex: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item, .message-item, .message-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message-label, .phone-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+label span {
+    color: lightgray;
+}
+
+input {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    width: 
+}
+
+textarea {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--secondary-gray);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: var(--primary-blue);
+}
+
+footer {
+    text-align: center;
+    color: var(--secondary-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 640px) {
+    .container-1 > .page-links {
+        display: flex;
+    }
+}
