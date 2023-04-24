@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="card_container" >
+            <div class="card" data-tilt >
+                <div class="pfp_container">
+                    <img class="pfp" src="./assets/github-logo.jpg" alt="">
+                </div>
+                <div class="text_container">
+                    <h2>Username: <span class="profile_name">??</span></h2>
+                    <p>Full Name: <span class="real_name">??</span></p>
+                    <p>Joined: <span class="date_joined">??</span></p>
+                </div>
+            </div>
+        </div>
+
+        <form id="user-form">
+            <label for="">Enter GitHub Username:</label>
+            <input type="text">
+    
+            <button id="btn" type="button">Search</button>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./vanilla-tilt.js"></script>
+</body>
+</html>

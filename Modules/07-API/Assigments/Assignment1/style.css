@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.text_container {
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+.button_container {
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+}
+
+.button_container > button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transform: transition 0.5s;
+}
+
+.button:active {
+    scale: 0.98;
+}

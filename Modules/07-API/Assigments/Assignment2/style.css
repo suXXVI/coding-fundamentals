@@ -1,0 +1,66 @@
+* {
+    font-family:monospace
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_container {
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.card {
+    border: 1px solid white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.pfp {
+    height: 100%;
+    width: 100%;
+}
+
+.pfp_container {
+    height: 230px;
+    width: 230px;
+    overflow: hidden;
+    border-radius: 100%;
+    transform: translateZ(50px)
+}
+
+.text_container {
+    transform: translateZ(50px)
+}
+
+
+#btn {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border:1px solid white;
+    padding: 3px 10px;
+    cursor: pointer;
+    transform: transition 0.7s;
+}
+
+#btn:active {
+    scale: 0.98;
+}
