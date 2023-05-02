@@ -1,0 +1,88 @@
+:root {
+    --primary-green: #22A39F;
+    --secondary-gray: #434242;
+    --body-white: #F3EFE0;
+
+    /* font sizes */
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+}
+
+/* General Style */
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F3EFE0;
+    color: #222222;
+}
+
+/* Remove default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.highlight {
+    color: var(--primary-green);
+}
+
+.underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(var(--primary-green), var(--primary-green));
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+.underline:hover {
+    background-size: 100% 1px;
+    background-position: 0 100%;
+}
+
+/* layout */
+
+main {
+    max-width: 24rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* medium */
+@media (min-width: 640px) {
+    main {
+        max-width: 32rem;
+    }
+}
+/* large */
+@media (min-width: 768px) {
+    main {
+        max-width: 42rem;
+    }
+}
+/* XL */
+@media (min-width: 1024px) {
+    main {
+        max-width: 48rem;
+    }
+}
+/* 2XL */
+@media (min-width: 1280px) {
+    main {
+        max-width: 64rem;
+    }
+}
