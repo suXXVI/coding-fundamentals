@@ -1,0 +1,48 @@
+1. Why do we need a loop? How do you write a basic for loop?
+    - lets say we want to type the word 'apple' 10 times, instead of writing it 10 times, we can use a loop. So a loop can basically repeat a task until the condition is met.
+
+    example on how to write a basic for loop -
+    for (let i = 0; i < 10; i++) {
+        console.log('apple')
+    }
+    'let i = 0' - we start the index 'i' at 0;
+    'i < 10' - if the index is less than 10, the loop will continue to run.
+    'i++' - this will add 1 to the index.
+    'console.log('apple')' - this will tell the loop to say the word apple until the condition is met, which is 10 times.
+ 
+
+2. Difference between console.log() and return?
+    - console.log() - Imagine you're playing a game and you want to keep track of your score. You can use console.log() to print your score to the console so you can see it and keep track of how well you're doing. For example:
+
+    let score = 0;
+
+    // Increase the score by 10
+    score += 10;
+
+    // Print the score to the console
+    console.log("My score is: " + score);
+
+    - return() is like giving an answer when someone asks you a question, it returns a value from a function to the code that called the function. It's like saying "heres the answer" and giving it to the code that requested it.
+
+    function addNumbers(a, b) {
+        return a + b;
+    }
+    let sum = addNumbers(3, 5);
+
+3. What are truthy values? What are falsy values?
+    - a value is considered truthy if it is considered true when evaluated in a boolean context. On the other hand, a value is considered falsy if it is considered false when evaluated in a boolean context.
+
+4. How does the internet work?
+    - the internet is like a string that connect our phones, computers etc together so that we can share information and talk to each other. when we want to see a website, our computer talks to a powerful computer called a server which sends the website back to our computer.
+
+5. How does a website work? What files are involved?
+    - websites are made up of different files that work togehter to create a webpage, the files involved are:
+
+    1.HTML
+    2.CSS
+    3.JavaScript
+
+    to explain this as simple as possible we can use a car as an example.
+    HTML is like the structure of the website, think of it like the frame of a body of a car.
+    CSS is what makes the car look good, so liek teh body panels of a car - hood, doors, fenders bumpers, roof.
+    Javascript is what makes the website functional, so think of it like the engine of a car, it makes the car functional.

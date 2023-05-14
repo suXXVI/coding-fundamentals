@@ -1,0 +1,79 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 130px auto;
+    max-width: 800px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.inputBox-container {
+    border-bottom: 1px solid rgb(185, 185, 185);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px 0 14px;
+}
+
+input {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: none;
+    flex: 1;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.fa-microphone {
+    cursor: pointer;
+    color: #DB4437;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+}
+
+.blue {
+    color: #4285F4
+}
+
+.red {
+    color: #DB4437;   
+}
+
+.yellow {
+    color: #F4B400;
+}
+
+.green {
+    color:  #0F9D58;
+}

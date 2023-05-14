@@ -1,0 +1,164 @@
+1. Given the following:
+
+let s = "pear"
+if (true){ 
+console.log('blank')} 
+else if (s.length < 5){ 
+console.log('short')} 
+else { console.log('long')}
+
+
+Which is the correct result?
+
+A. blank - this is the correct answer.
+
+B. short
+
+C. long
+
+D. an exception is raised
+
+-------------------
+
+2. Which of the following can be inserted into <Insert Space> in order to generate the output below?
+
+
+let secret = 'CODE'
+<Insert Space>
+[Output]i like writing CODE
+
+
+A. console.log('i like writing ${secret}')
+
+B. console.log(`i like writing ${secret}`) - this is the correct answer
+
+C. console.log('i like writing + secret')
+
+D. console.log('i like writing #{secret}')
+
+--------------------
+
+3. Given the following:
+
+const MSG = 'hello'
+
+MSG.toUpperCase()
+
+console.log(MSG)
+
+What is the correct result?
+
+A. An error occurs because MSG is a constant.
+
+B. HELLO is displayed without warning.
+
+C. A warning appears because MSG is a constant but 'HELLO' is displayed. 
+
+D. hello is displayed because .toUpperCase() does not mutate the string. - this is the correct answer
+
+-------------------
+
+4. How do you link up the CSS and JS file to your HTML file? Pick all that applies.
+
+A. Internal 
+
+B. External - this is correct
+
+C. Inline - this is correct
+
+D. Direct Linking
+
+------------------
+
+5. Given the following: 
+
+a = [2,4,6,8,10]
+a.shift()
+a.pop()
+a.push(12)
+console.log(a)
+
+
+Which is the correct output?
+
+A. [2,4,6,8,10,12]
+
+B. [2,4,6,8,10]
+
+C. [4,6,8,12] - this is the correct answer
+
+D. [4,6,8]
+
+------------------
+
+6. When do you need to use the DOM? Pick all that applies.
+
+A. Querying elements on the browser. - this is correct
+
+B. Accessing elements on the browser. - this is correct
+
+C. Changing elements on the browser. - this is correct
+
+D. Console.log() elements on the browser
+
+-----------------
+
+7. Which of the following is the output of the below JavaScript code?
+
+function getTotal() { var a = 7; return function(b) { alert(a+b); } }
+var f = getTotal(); f(5);
+
+
+A. 12 - this is the answer
+
+B. null
+
+C. 5
+
+D. undefined
+
+-----------------
+
+8. What is the output of the following JavaScript snippet?
+
+var favNum = function() { 
+     var a = 10; 
+     if(a > 5) { a = 7; } 
+     alert(a); }
+
+favNum()
+
+
+A. 7 - this is the answer
+
+B. 10
+
+C. null
+
+D. undefined
+
+-------------------
+
+9. What is the function of Array object that adds and/or removes elements from an array?
+
+
+A. toSource()
+
+B. sort()
+
+C. splice() - this is the answer
+
+D. unshift()
+
+------------------
+
+10. Which of the following methods removes the last element from an array and returns that element?
+A. None
+
+B. pop() - this is the answer
+
+C. last()
+
+D. get()
+
+------------------

@@ -1,0 +1,103 @@
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+  
+
+body {
+    background-color: #75948c;
+    font-family: sans-serif;
+}
+
+.word-container {
+    height: 200px;
+    width: 100%;
+    border: 5px solid #f28482;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 15px 10px;
+}
+
+.game-container > h1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #f6bd60;
+}
+
+.word {
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 60px;
+    font-family: monospace;
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+.letters-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f6bd60;
+    border: 2px solid rgb(77, 77, 77);;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s all;
+    color: rgb(61, 61, 61);
+    font-weight: 700;
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: #fcac2b;
+}
+
+.tries-counter {
+    color: #f6bd60;
+    margin-bottom: 40px;
+}
+
+footer > p {
+    color: #f6bd60;
+}
+
+.github-username {
+    text-decoration: underline;
+    color: #f6bd60;
+}
