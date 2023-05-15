@@ -1,0 +1,46 @@
+* {
+    --primary-green: #1DB954;
+
+    margin: 0;
+    padding: 0;
+    font-family: Circular Regular, sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: "Circular Regular";
+    src: url("./fonts/CircularStd-Regular.otf");
+}
+
+@font-face {
+    font-family: "Circular Light";
+    src: url("./fonts/CircularStd-Light.otf");
+}
+
+@font-face {
+    font-family: "Circular Bold";
+    src: url("./fonts/CircularStd-Bold.otf");
+}
+
+@font-face {
+    font-family: "Circular Black";
+    src: url("./fonts/CircularStd-Black.otf");
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.playlist-container::-webkit-scrollbar {
+    width: 0.1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #191414;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color:  var(--primary-green);
+}
+
