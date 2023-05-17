@@ -138,7 +138,7 @@ async function fetchWebApi(endpoint, method, body) {
 async function fetchPlaylistId() {
     try {
         const endpoint =`v1/me/playlists`;
-        let response = await fetchWebApi(endpoint + '?limit=20', 'GET');
+        let response = await fetchWebApi(endpoint + '?limit=100', 'GET');
         let data = response.items;
 
         let discoverWeeklyItem = data.find(item => item.name === 'Discover Weekly');
