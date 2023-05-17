@@ -158,14 +158,14 @@ header {
 }
 
 footer {
-    margin: 100px 0 0;
+    margin-top: 200px;
     background-color: black;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px -3px 6px, rgba(0, 0, 0, 0.23) 0px -3px 6px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -188,12 +188,13 @@ footer > p {
 
 
 /* media queries */
+
 @media (min-width: 768px) {
     .playlist-section {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin: 250px 20px 15px;
+        margin: 200px 20px 10px;
     }
     .button-container {
         margin-bottom: 150px;
@@ -215,12 +216,12 @@ footer > p {
       }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
     .playlist-section {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin: 250px 20px 15px;
+        margin: 200px 20px 10px;
     }
     .button-container {
         margin-bottom: 150px;
@@ -232,10 +233,22 @@ footer > p {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin: 200px 20px 30px;
+        margin: 200px 20px 10px;
     }
     .button-container {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .playlist-section {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 200px 20px 10px;
+    }
+    .button-container {
+        margin-bottom: 10px;
     }
     .playlist-container {
         height:400px;
