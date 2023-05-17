@@ -188,16 +188,18 @@ footer > p {
 
 
 /* media queries */
-
 @media (min-width: 768px) {
     .playlist-section {
         display: flex;
         flex-direction: row;
         gap: 30px;
-        margin: 250px 20px 100px;
+        margin: 250px 20px 15px;
+    }
+    .button-container {
+        margin-bottom: 150px;
     }
     .app-name > h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .arrow-container {
         animation: rotate-mid-width 0.8s forwards;
@@ -215,13 +217,28 @@ footer > p {
 
 @media (min-width: 992px) {
     .playlist-section {
-        margin-top: 190px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 250px 20px 15px;
+    }
+    .button-container {
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .playlist-section {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 200px 20px 30px;
+    }
+    .button-container {
+        margin-bottom: 150px;
     }
     .playlist-container {
         height:400px;
         width:400px;
-    }
-    .button-container {
-        margin-bottom: 50px;
     }
 }
