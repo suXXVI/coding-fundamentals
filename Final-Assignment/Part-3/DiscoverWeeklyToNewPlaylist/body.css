@@ -1,6 +1,7 @@
 body {
     background-color: #1E073C;
     color: rgb(0, 0, 0);
+    position: relative;
 }
 
 .logo-container {
@@ -39,6 +40,14 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+
+.playlist-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 header {
@@ -169,7 +178,8 @@ footer {
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px -3px 6px, rgba(0, 0, 0, 0.23) 0px -3px 6px;
-    /* position: fixed; */
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
@@ -195,9 +205,13 @@ footer > p {
 @media (min-width: 768px) {
     .playlist-section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
         margin: 100px 20px 10px;
+    }
+    .playlist-boxes {
+        display: flex;
+        flex-direction: row;
     }
     .button-container {
         margin-bottom: 150px;
@@ -222,9 +236,13 @@ footer > p {
 @media (min-width: 900px) {
     .playlist-section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
-        margin: 100px 20px 10px;
+        margin: 100px 20px;
+    }
+    .playlist-boxes {
+        display: flex;
+        flex-direction: row;
     }
     .button-container {
         margin-bottom: 150px;
@@ -234,9 +252,13 @@ footer > p {
 @media (min-width: 1020px) {
     .playlist-section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
         margin: 100px 20px;
+    }
+    .playlist-boxes {
+        display: flex;
+        flex-direction: row;
     }
     .button-container {
         margin-bottom: 100px;
@@ -246,9 +268,13 @@ footer > p {
 @media (min-width: 1200px) {
     .playlist-section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
         margin: 100px 20px;
+    }
+    .playlist-boxes {
+        display: flex;
+        flex-direction: row;
     }
     .button-container {
         margin-bottom: 10px;
@@ -258,7 +284,7 @@ footer > p {
         width:350px;
     }
     footer {
-        position: sticky;
+        position: fixed;
         bottom: 0;
     }
 }
