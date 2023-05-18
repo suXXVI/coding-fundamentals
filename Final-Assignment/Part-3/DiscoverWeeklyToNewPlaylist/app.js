@@ -58,9 +58,9 @@ async function generateCodeChallenge(codeVerifier) {
 
 // request authorization from user
 function requestAuthorization() {
-    const clientId = 'e30c60a1df644367b302df0a2bdd9d52';
+//     const clientId = 'e30c60a1df644367b302df0a2bdd9d52';
     // let redirectUri = 'https://suxxvi.github.io/DiscoverWeeklyToNewPlaylist/'
-    const redirectUri = window.location.origin;
+//     const redirectUri = window.location.origin;
 
     let codeVerifier = generateRandomString(128);
 
